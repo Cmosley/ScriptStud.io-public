@@ -12,6 +12,7 @@ import './PageHeader.css';
 const navigation = [
   { name: 'My Snips', href: '/userhub', current: true, loggedIn: [true]},
   { name: 'Search Snips', href: '/search/all', current: false, loggedIn: [true, false] },
+  { name: '+ Create', href: '/snippets/create', current: false, loggedIn: [true]},
   { name: 'Login', href: '/login', current: false, loggedIn: [false] },
   { name: 'Sign Up', href: '/signup', current: false, loggedIn: [false] },
 ]
